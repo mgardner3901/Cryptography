@@ -1,7 +1,9 @@
 """
 cryptography.py
 Author: Morgan Gardner
-Credit: None
+Credit:https://cryptography.io/en/latest/
+       https://docs.python-guide.org/scenarios/crypto/
+        
 
 Assignment:
 
