@@ -20,10 +20,12 @@ while end == "false":
     keyInt = []
     encryptedNumbers = []
     encryptedLetters = ""
-    cyphertextNums = []
-    cypherkeyNums = []
     decryptedNums = []
     decryptedLetters = ""
+    cyphertextNums = []
+    cypherkeyNums = []
+   
+   
     userInput = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     
     if userInput != "e" and userInput != "d" and userInput != "q":
