@@ -48,6 +48,7 @@ while end == "false":
         for t in encryptedNumbers:
             if t > 85:
                 t = t - 85
+                
             encryptedLetters = encryptedLetters + associations[t]
         print(encryptedLetters) 
     elif userInput == "d":
@@ -65,5 +66,6 @@ while end == "false":
         for h in decryptedNums:
             if h < 0:
                 h = h + 85
+                
             decryptedLetters = decryptedLetters + associations[h]
         print(decryptedLetters)
